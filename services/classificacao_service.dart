@@ -1,5 +1,5 @@
 import '../models/selecao.dart';
-
+    
 void ordenar(List<Selecao> selecoes) {
   selecoes.sort((a, b) {
     if (b.pontos != a.pontos) return b.pontos - a.pontos;
